@@ -4,8 +4,9 @@ https://www.delish.com/cooking/recipe-ideas/g36890133/healthy-meal-prep-recipes/
 https://insanelygoodrecipes.com/after-school-snacks/
 https://www.allrecipes.com/gallery/breakfast-finger-foods/
 https://sharpaspirant.com/meal-prep-ideas-breakfast/#google_vignette
-https://www.pexels.com/photo/red-strawberries-and-stainless-steel-spoons-on-a-black-surface-8019484/
 */
+
+//Import Statements
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -16,6 +17,7 @@ import kotlin.system.exitProcess
 
 class MainActivity2 : AppCompatActivity() {
 
+    // Declaring The Variables (Class Definition)
     private lateinit var content: TextView
     private lateinit var timeOfDay: EditText
     private lateinit var searchButton: Button
@@ -28,6 +30,7 @@ class MainActivity2 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main2)
 
+        //Initialization Of UI Elements In onCreate
         content = findViewById(R.id.tvContent)
         timeOfDay = findViewById(R.id.etTimeOfDay)
         searchButton = findViewById(R.id.btnSearch)
@@ -35,6 +38,7 @@ class MainActivity2 : AppCompatActivity() {
         mealOutput = findViewById(R.id.tvMealOutput)
         exitButton = findViewById(R.id.btnExit)
 
+        //Setting Buttons Click Listener
         searchButton.setOnClickListener {
             handleTimeOfTheDay()
         }

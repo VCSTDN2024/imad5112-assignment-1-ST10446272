@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+https://www.pexels.com/photo/red-strawberries-and-stainless-steel-spoons-on-a-black-surface-8019484/
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,17 +15,18 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/tvAppName"
+        android:id="@+id/tvSlogan"
         android:layout_width="match_parent"
-        android:layout_height="94dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
-        android:text="LET'S EAT"
+        android:fontFamily="cursive"
+        android:text="Delicious Made Easy."
         android:textAlignment="center"
         android:textColor="@color/cardview_light_background"
-        android:textSize="55dp"
+        android:textSize="70dp"
         app:layout_constraintBottom_toTopOf="@+id/btnLetsCook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+https://www.pexels.com/photo/red-strawberries-and-stainless-steel-spoons-on-a-black-surface-8019484/
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -19,9 +22,10 @@
         android:layout_marginBottom="50dp"
         android:layout_marginTop="100dp"
         android:textColor="@color/cardview_light_background"
-        android:text="Hello Hera... \nLet's Find You Something to Eat"
+        android:text="     Hello Hera... \n Let's Find You Something to Eat"
+        android:fontFamily="cursive"
         android:textAlignment="center"
-        android:textSize="40dp" />
+        android:textSize="50dp" />
 
     <EditText
         android:id="@+id/etTimeOfDay"
@@ -76,11 +80,11 @@
     <TextView
         android:id="@+id/tvMealOutput"
         android:layout_width="match_parent"
-        android:layout_height="271dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="30dp"
         android:text=""
-        android:textColor="@color/cardview_light_background"
-        android:layout_marginTop="20dp"
         android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
         android:textSize="30dp" />
 
     <Button
